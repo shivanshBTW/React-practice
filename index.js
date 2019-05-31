@@ -2,15 +2,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Hello to="Raman" from="Sam" exclamations={4} />
-        <Hello to="Alpha" from="Jack" exclamations={10} />
+        <h1>Hobby</h1>
+        <Friend name="Ross" hobbies={['movies', 'games', 'singing', 'reading']} />
       </div>
     );
   }
 }
 
-// function App() {
-
-// }
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.querySelector('#root'));
