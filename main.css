@@ -1,0 +1,14 @@
+.Machine {
+  border: 2px solid red;
+  background-color: lightblue;
+}
+
+.Machine-winner {
+  color: white;
+  background-color: green;
+}
+
+.Machine-loser {
+  color: white;
+  background-color: red;
+}
